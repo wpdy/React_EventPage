@@ -29,7 +29,7 @@ const setEvent = asyncHandler( async (req, res) => {
         img: req.body.img,
         starting_date: req.body.starting_date,
         price: req.body.price,
-        date: req.body.createAt
+        date: req.body.date
    })
     res.status(200).json(event);
 
